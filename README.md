@@ -10,7 +10,7 @@ By: **Eunsu (David) Kim**
 
 Using the "Data Expo 2009: Airline on Time Data" found on Kaggle.com, I built a complete machine learning pipeline which incorporates big data technologies using a cloud infrastructure. 
 
-The project can be split into the following steps: downloading the “Data Expo 2009: Airline On Time Data” dataset from Kaggle, exploring the data (deriving descriptive statistics on the data), cleaning the data, creating the machine learning pipeline (building the machine learning models) and concludes with visualizations.
+The project can be split into the following steps: downloading the “Data Expo 2009: Airline On Time Data” dataset from Kaggle, exploring the data (deriving descriptive statistics on the data), cleaning the data, creating the machine learning pipelines (building the machine learning models) and concludes with visualizations.
 
 ### Downloading the Dataset 
 To download the data directly from Kaggle to my designated Amazon S3 bucket for this project, I had to configure the AWS Command Line Interface (CLI) on an EC2 instance, install and configure the Kaggle API and make a few edits to the Kaggle API source code to allow writing to standard output. By following these steps successfully, I was able to download the Kaggle dataset directly into my S3 bucket without downloading the CSV files directly.
