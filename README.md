@@ -2,7 +2,7 @@
 
 *"Data Expo 2009: Airline on Time Data" Machine Learning Pipeline* is my submission for the semester project while taking the course CIS 4130 - Big Data Technologies. 
 
-Submitted by: **Eunsu (David) Kim** 
+By: **Eunsu (David) Kim** 
 
 ## Project Description
 
