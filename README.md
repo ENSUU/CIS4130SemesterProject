@@ -48,10 +48,10 @@ The second model I chose to construct is a logistic regression model to predict 
 
 For the visualization step, I created a bar chart showing how much flights took place in each year, a line graph to show flight frequencies over the months of the year, a correlation matrix for the numeric variables in the dataset and an ROC curve for the logistic regression model.
 
-### Visualization 1: Bar Chart - Number of Flights per Year (sampled 50% of dataset) 
+### Visualization 1: Bar Chart - Number of Flights per Year (*sampled 50% of dataset*) 
 ![year_Count](https://user-images.githubusercontent.com/101163555/207735284-4c8e3e82-c833-4165-be39-6511bf3ddcea.png) 
 
-### Visualization 2: Line Graph - Number of Flights by Month (sampled 50% of dataset) 
+### Visualization 2: Line Graph - Number of Flights by Month (*sampled 50% of dataset*)
 ![month_Count](https://user-images.githubusercontent.com/101163555/207735896-e71ad5ff-6133-444e-8833-e2ae7b84ea46.png)
 
 ## Visualization 3: Correlation Matrix of Numerical Variables in Dataset 
