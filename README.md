@@ -22,15 +22,15 @@ During the exploratory data analysis step, I learned about how the dataset is sp
 To clean the dataset, I had removed the rows with ArrTime and DepTime values greater than 2400, removed any rows where ActualElapsedTime, CRSElapsedTime, and AirTime values were null, and dropped the columns TailNum and CancellationCode. Additionally, I had type casted the Distance, TaxiIn, TaxiOut, AirTime, ActualElapsedTime, CRSElapsedTime, and Delayed columns to the float datatype. The remaining null values present in the dataset were present in the CarrierDelay, WeatherDelay, NASDelay, SecurityDelay, and LateAircraftDelay columns. Under the assumption that null values for these columns signifies no delays occurred, I concluded this step by replacing the remaining null values with a placeholder value of 0. 
 
 ## Machine Learning Pipelines
-### Linear Regression Model(s) - Predicting actual duration of flights 
+### Multiple Linear Regression Model(s) - Predicting actual duration of flights 
 With the dataset cleaned, I began by constructing a linear regression model to predict actual flight times using the features UniqueCarrier, Origin, Dest, AirTime, ArrDelay, TaxiIn, TaxiOut, CarrierDelay, WeatherDelay, NASDelay, SecurityDelay, and LateAircraftDelay. Both the model constructed using one random 80-20 split and the best model from a 3-fold cross validation were evaluated based on the mean squared error, root mean squared error, and R-squared statistics. 
 
-- Linear Regression Model using one random 80-20 split:
+- Multiple Linear Regression Model using one random 80-20 split:
   - **MSE**: 115.45861962532234
   - **RMSE**: 10.745167268373367
   - **R-Squared**: 0.9764014076814835
   
- - Best Linear Regression Model using 3-Fold Cross Validation:
+ - Best Multiple Linear Regression Model using 3-Fold Cross Validation:
    - **MSE**: 115.61658941321905
    - **RMSE**: 10.75251549234964
    - **R-Squared**: 0.9763591354196165
